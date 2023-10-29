@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     ifstream in;
-    in.open("solid_CubeModel_copy.stl");
+    in.open("sphere.stl");
  
     ofstream out1;
     out1.open("boundrybox.txt");
@@ -105,7 +105,7 @@ int main()
     ofstream out3;
     out3.open("datasect2.txt");
    
-    in.open("solid_CubeModel_copy.stl");
+    in.open("sphere.stl");
     iCnt = 0;
     double offset=20;
     while(in.eof() == 0)
